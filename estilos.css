@@ -808,8 +808,8 @@ body.dark {
 /* botón scroll to top */
 .up-arrow {
     border-radius: 25px;
-    background: #444343;
-    color: #B9FF66;
+    background: var(--color-secundario);
+    color: var(--color-primario);
 }
 
 
