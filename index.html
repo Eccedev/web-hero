@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300..700&family=Roboto:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">    
+    <title>Luca Services</title>
+</head>
+
+<body>
+    <!-- modal pop-up al cargar DOM -->
+    <section class="modal">
+        <div class="modal__container">                    
+            <article class="modal__texts">
+                <h2 class="modal__title">¿Piensas en un proyecto web2-web3 interesante?</h2>
+                <p class="modal__paragraph">LUCA te lo simplifica, <span class="modal__messages">No dudes en preguntar a la comunidad.</span></p>
+                <a href="#quienes__somos" class="modal__cta">Descúbrenos</a>
+            </article>
+
+            <figure class="modal__figure">
+                <img src="./assets/luca-community.svg" class="modal__luca" alt="Un microbio sonriente de imagen">
+            </figure>
+
+            <button class="modal__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" style="fill: #fff; "><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+            </button>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <header class="hero">
+
+            <nav class="nav">
+                <a href="./" class="nav__logo-link"><h1 class="logo-text">LUCA</h1>
+                    <!--<figure class="nav__figure">
+                    <img src="./assets/lucahead.png" class="nav__logo" alt="Una bacteria sonriendo como logo">
+                    </figure> -->                  
+                </a>          
+
+                <!-- Tema dark/light switcher -->
+                <div class="theme-switch">
+                    <input type="checkbox" class="checkbox" id="checkbox" />
+                    <label for="checkbox" class="label">
+                        <ion-icon name="sunny-outline" class="sun"></ion-icon>
+                        <ion-icon name="moon-outline" class="moon"></ion-icon>
+                        <div class="switcher"></div>
+                    </label>
+        </div>
+
+        <!-- menú hamburger -->
+        <label class="nav__label">
+            <input type="checkbox" class="nav__checkbox">
+        </label>
+
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#quienes__somos" class="nav__link">Conócenos</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#servicios" class="nav__link">Servicios</a>
+                    </li>                    
+
+                    <li class="nav__item">
+                        <a href="#como" class="nav__link">Cómo</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#faq" class="nav__link">FAQ</a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#contacta" class="nav__link nav__link--cta">Contáctanos</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="hero__main">
+                <h1 class="hero__title">Dale vida a tu idea web3 con <span class="h1__luca"s>LUCA</span></h1>
+
+                <figure class="hero__figure">
+                    <img src="./assets/header-img.svg" class="hero__img">
+                </figure>
+
+                <p class="hero__paragraph">
+                    Desarrollo web3, dapps, tokenización y mucho más integrado en el mundo blockchain.
+                </p>
+                <a href="#" class="hero__cta">Continúa descubriendo</a>
+            </section>
+
+        </header>
+
+        <main class="main">
+            <section class="services" id="quienes__somos">
+                <h2 class="title title__hight">Quiénes somos</h2>
+                <div class="cta cta__about">
+                    <article class="cta__content">
+                        <div class="cta__texts">
+                            <h2 class="title cta__h2__text">Somos la comunidad LUCA</h2>
+                            <p class="cta__parragraph">
+                                Nos gusta crear experiencias digitales que conecten tus ideas a tus usuarios.
+                            </p>
+                        </div>
+                        <figure class="cta__figure">
+                            <img src="./assets/luca-community.svg" class="cta__img">
+                        </figure>
+                    </article>
+                </div>
+            </section>
+
+            <section class="services" id="servicios">
+
+                <h2 class="title title__hight">Servicios</h2>
+                <p class="paragraph"> </p>
+
+
+                <section class="services__container">
+
+                    <article class="services__article services__title--gray">
+
+                        <h3 class="services__title">
+                            <span class="services__span">Desarrollo</span>
+                            <span class="services__span">Fullstack blockchain</span>
+                        </h3>
+
+                        <div class="services__content">
+                            <a href="#" class="services__link">
+                                <img src="./assets/arrow.svg" class="services__arrow">
+                            </a>
+
+                            <img src="./assets/seo-illustration.svg" class="services__img">
+                        </div>
+
+                    </article>
+
+                    <article class="services__article services__title--yellow">
+
+                        <h3 class="services__title">
+                            <span class="services__span">Despliegue</span>
+                            <span class="services__span">Web3 y Dapps</span>
+                        </h3>
+
+                        <div class="services__content">
+                            <a href="#" class="services__link">
+                                <img src="./assets/arrow.svg" class="services__arrow">
+                            </a>
+
+                            <img src="./assets/payment.svg" class="services__img">
+                        </div>
+
+                    </article>
+
+                    <article class="services__article services__title--black">
+
+                        <h3 class="services__title">
+                            <span class="services__span">Creación</span>
+                            <span class="services__span">NFT, FT y Juegos</span>
+                        </h3>
+
+                        <div class="services__content">
+                            <a href="#" class="services__link">
+                                <img src="./assets/arrow-black.svg" class="services__arrow">
+                            </a>
+
+                            <img src="./assets/content-mkt.svg" class="services__img">
+                        </div>
+
+                    </article>
+
+                    <article class="services__article services__title--yellow">
+
+                        <h3 class="services__title">
+                            <span class="services__span">Tokenización</span>
+                            <span class="services__span">RWA</span>
+                        </h3>
+
+                        <div class="services__content">
+                            <a href="#" class="services__link">
+                                <img src="./assets/arrow.svg" class="services__arrow">
+                            </a>
+
+                            <img src="./assets/payment.svg" class="services__img">
+                        </div>
+
+                    </article>
+
+                    <article class="services__article services__title--black">
+
+                        <h3 class="services__title">
+                            <span class="services__span">Integrar</span>
+                            <span class="services__span">Protocolos DeFi</span>
+                        </h3>
+
+                        <div class="services__content">
+                            <a href="#" class="services__link">
+                                <img src="./assets/arrow-black.svg" class="services__arrow">
+                            </a>
+
+                            <img src="./assets/content-mkt.svg" class="services__img">
+                        </div>
+
+                    </article>
+
+                    <article class="services__article services__title--gray">
+
+                        <h3 class="services__title">
+                            <span class="services__span">Soluciones</span>
+                            <span class="services__span">Trazabilidad</span>
+                        </h3>
+
+                        <div class="services__content">
+                            <a href="#" class="services__link">
+                                <img src="./assets/arrow.svg" class="services__arrow">
+                            </a>
+
+                            <img src="./assets/seo-illustration.svg" class="services__img">
+                        </div>
+
+                    </article>
+
+                </section>
+            </section>
+
+            <section class="faq faq__video" id="como">
+                <h2 class="title title__hight">
+                    Lo hacemos fácil 
+                </h2>
+              <section class="video-container">
+                <div class="i-frame">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-KLqZ5O3scw?si=ENjFvdGRmXla5LME" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </section>
+            </section>
+
+            <section class="cta">
+                <article class="cta__content">
+                    <div class="cta__texts">
+                        <h2 class="title cta__h2__text">Estamos decididos a que logres tus objetivos</h2>
+                        <p class="cta__parragraph">
+                            Tus metas se alinearán con nuestra estrategia para lograr alcanzarlas. 
+                        </p>
+                        <a href="#" class="cta__links">Contáctanos</a>
+                    </div>
+
+                    <figure class="cta__figure">
+                        <img src="./assets/podcast-illustration.svg" class="cta__img">
+                    </figure>
+
+                </article>
+                
+            </section>
+
+            <section class="faq" id="faq">
+                <h2 class="title title__hight">
+                    FAQ
+                </h2>
+
+                <section class="faqs__container">
+
+                    <details class="faq__item">
+                        <summary class="faq__question">
+                            <h4 class="faq__title">
+                                Cómo funciona
+                            </h4>
+
+                            
+                        </summary>
+
+                        <article class="faq__answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error hic recusandae consequatur minima aut iusto, exercitationem harum accusamus obcaecati rerum ipsum unde minus, cupiditate repellendus dicta pariatur qui expedita saepe?</p>
+                        </article>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary class="faq__question">
+                            <h4 class="faq__title">
+                                Dónde comienzo
+                            </h4>
+
+                            
+                        </summary>
+
+                        <article class="faq__answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error hic recusandae consequatur minima aut iusto, exercitationem harum accusamus obcaecati rerum ipsum unde minus, cupiditate repellendus dicta pariatur qui expedita saepe?</p>
+                        </article>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary class="faq__question">
+                            <h4 class="faq__title">
+                                Qué me ofertan
+                            </h4>
+
+                            
+                        </summary>
+
+                        <article class="faq__answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error hic recusandae consequatur minima aut iusto, exercitationem harum accusamus obcaecati rerum ipsum unde minus, cupiditate repellendus dicta pariatur qui expedita saepe?</p>
+                        </article>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary class="faq__question">
+                            <h4 class="faq__title">
+                                Dónde contacto
+                            </h4>
+
+                            
+                        </summary>
+
+                        <article class="faq__answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error hic recusandae consequatur minima aut iusto, exercitationem harum accusamus obcaecati rerum ipsum unde minus, cupiditate repellendus dicta pariatur qui expedita saepe?</p>
+                        </article>
+                    </details>
+                </section>
+            </section>
+
+            <section class="contact" id="contacta">
+                <h2 class="title title__hight">Contáctanos</h2>
+                <p class="paragraph">Contacta con nosotros a través de nuestra comunidad en rrss o envíanos un email. Estaremos encantados de atenderte.</p>
+
+                <section class="contact__content">
+
+                    <form class="contact__form">
+
+                        <label class="contact__label">
+                            Nombre
+                            <input type="text" placeholder="Luca" class="contact__input">
+                        </label>
+
+                        <label class="contact__label">
+                            Email
+                            <input type="email" placeholder="Email" class="contact__input">
+                        </label>
+
+                        <label class="contact__label">
+                            Mensage
+                            <textarea class="contact__area" placeholder="Mensage"></textarea>
+                        </label>
+
+
+                        <input type="submit" value="Enviar" class="contact__submit">
+                    </form>
+
+                    <figure class="contact__figure">
+                        <img src="./assets/message-illustration.svg" class="contact__img">
+                    </figure>
+                </section>
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up">
+    <!--    <img src="assets/icons8-upward-arrow.png" class="socicon up-arrow" alt="up-arrow/>  -->
+        <ion-icon name="chevron-up-circle-outline" class="socicon up-arrow" alt="up-arrow"></ion-icon>
+    </i>
+
+    <footer class="footer">
+
+        <section class="footer__content">
+
+            <div class="footer__main">
+                <a href="./" class="nav__logo-link"><h1 class="logo-text-foo">LUCA</h1>                 
+                </a>
+                <!--<a href="./" class="nav__logo-link">
+                    <figure class="nav__figure__foo">
+                    <img src="./assets/logo-white.svg" class="nav__logo__foo" alt="Una bacteria sonriendo como logo">
+                    </figure>                    
+                </a>-->
+
+                <nav class="footer__links">
+                    <a href="#quienes__somos" class="footer__link">Sobre Nosotros</a>
+                    <a href="#servicios" class="footer__link">Servicios</a>
+                    <a href="#como" class="footer__link">Cómo</a>
+                    <a href="#faq" class="footer__link">FAQS</a>
+                    <a href="#contacta" class="footer__link">Contacto</a>
+                </nav>
+    
+                <article class="footer__contact">
+                    <h4 class="footer__copy">Contáctanos:</h4>
+    
+                    <p class="footer__info">
+                        Email: luca@lucamailloremimpsum@/.com
+                    </p>
+    
+                    <p class="footer__info">
+                        Telefono: 000-555-444-333-222
+                    </p>
+    
+                    <p class="footer__info">
+                        Fondo marino, Atlántida.
+                    </p>
+                </article>
+    
+                <form class="footer__newsletter">
+                    <input type="email" placeholder="Email" class="footer__email">
+                    <input type="submit" value="Suscribete " class="footer__submit">
+                </form>
+
+                <nav class="footer__social">
+
+                    <a href="#" class="footer__social-links">
+                        <img src="./assets/linkedin.svg" class="footer__media">
+                    </a>
+
+                    <a href="#" class="footer__social-links">
+                        <img src="./assets/facebook.svg" class="footer__media">
+                    </a>
+
+                    <a href="#" class="footer__social-links">
+                        <img src="./assets/twitter.svg" class="footer__media">
+                    </a>
+
+                </nav>
+
+            </div>
+
+            <div class="footer__copyright">
+
+                <p class="footer__copyright-text">&copy; Luca - Un proyecto de Eccedev </p>
+
+            </div>
+
+        </section>
+
+    </footer>
+
+    <!-- iconos https://ionic.io/ionicons tema dark  -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
+       
+</body>
+</html>
